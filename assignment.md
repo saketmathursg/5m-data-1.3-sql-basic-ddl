@@ -12,9 +12,12 @@ Paste the answer as SQL in the answer code section below each question.
 
 Write the SQL statement to create a unique index on the `email` column of the `students` table in the `lesson` schema.
 
+
+
 Answer:
 
-```sql
+```create index email_idx  on lesson.students (email);
+
 
 ```
 
